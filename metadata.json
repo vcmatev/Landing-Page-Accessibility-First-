@@ -1,0 +1,5 @@
+{
+  "name": "A11yFirst - Accessible Landing Page",
+  "description": "A landing page built with an accessibility-first approach, featuring 100/100 Lighthouse score, skip links, and high contrast mode.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f172a;
+  --color-accent: #2563eb;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  /* Skip Link Styles */
+  .skip-link {
+    @apply absolute -top-16 left-4 bg-primary text-white p-3 z-50 transition-all focus:top-4 outline-none ring-2 ring-accent ring-offset-2;
+  }
+
+  /* Focus Visible Reset - Ensure focus is always visible for keyboard users */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2;
+  }
+
+  /* Reduced Motion Support */
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-delay: -1ms !important;
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      background-attachment: initial !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0s !important;
+      transition-delay: 0s !important;
+    }
+  }
+}
+
+/* High Contrast Mode Support */
+[data-contrast="high"] {
+  --color-primary: #000000;
+  --color-accent: #ffff00;
+  --bg-white: #000000;
+  --text-slate-900: #ffffff;
+  --text-slate-600: #ffffff;
+  --bg-slate-50: #000000;
+  --border-slate-200: #ffffff;
+}
+
+[data-contrast="high"] body {
+  @apply bg-black text-white;
+}
+
+[data-contrast="high"] .card {
+  @apply border-2 border-white;
+}
