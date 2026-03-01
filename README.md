@@ -92,7 +92,6 @@ Kami berkomitmen untuk memastikan aksesibilitas digital bagi semua orang. Proyek
 - **Standar:** WCAG 2.1 AA
 - **Tanggal Evaluasi Terakhir:** [Tanggal Hari Ini]
 - **Teknologi Asistif yang Diuji:** NVDA, VoiceOver, TalkBack.
-- **Kontak:** Jika Anda mengalami masalah aksesibilitas, silakan hubungi [email-anda@contoh.com].
 
 ## 🧠 Pelajaran & Tantangan
 
@@ -105,12 +104,6 @@ Selama pengembangan, beberapa tantangan aksesibilitas yang berhasil diatasi:
 ## 🤝 Kontribusi
 
 Kontribusi untuk meningkatkan aksesibilitas situs ini sangat welcome! Silakan buat **Pull Request** atau buka **Issue** jika Anda menemukan bug aksesibilitas.
-
-## 📫 Kontak
-
-- **Portfolio:** [Link Portfolio Anda]
-- **LinkedIn:** [Link LinkedIn Anda]
-- **Email:** [Email Anda]
 
 ---
 *Dibuat dengan ❤️ dan komitmen terhadap inklusivitas.*
